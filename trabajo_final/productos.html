@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/autos.css">
+    <title>Postres</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="cata text-center">Catalogo de Postres</h1>
+        <hr style="border-color: #741e1e;">
+        <div class="row" id="items"></div>
+    </div>
+
+    <template id="template-card">
+        <div class="col-12 col-md-3">
+            <div class="card .bg-warning.gradient border-warning" style="width: 11rem; height: 12rem;">
+            <img src="" class="card-img-top" alt="..." style="width: 100px; height: 100px;">
+            <div class="card-body">
+                <h5 class="cata card-title" >Thunderbird</h5>
+                <p class="cata card-text">$<span>715,000.00</span></p>
+            </div>
+        </div>
+        </div>
+    </template>
+
+    <hr style="border-color: #741e1e"; width="300" >
+    <footer>
+        Modelos 2023
+        <br><button style="background: #c9c6af; color: #741e1e; width: 100px;" class="enlace" role="link" onclick="window.location='index.html'">inicio</button>
+    </footer>
+
+    <script src="js/app_postres.js"></script>
+</body>
+</html>
